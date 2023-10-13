@@ -30,3 +30,5 @@ While ES6 arrow syntax is recommended for the callback function, feel free to us
 Add a parameter named word to the callback function of the .forEach() method to be used to store the current element when iterating over the storyWords array. Each time storyWord iterates, increment count by one.
 
 Below the .forEach() method, log count to see how many words are in the story.
+
+**5.** 
