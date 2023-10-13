@@ -81,3 +81,9 @@ To start, define a variable called lengthCheck and set it to the invocation of t
 
 Log lengthCheck to the console to see the result. If true is logged, every word in the story has 10 characters or less. Otherwise, one or more words are longer than 10 characters.
 
+
+**11.** Hmm, it looks like there’s at least one word longer than 10 characters.
+
+Use an iterator method of your choice to access the word (there is only one) in the storyWords array that is greater than 10 characters. Then, manually replace the word in the original story string with a shorter word.
+
+Some ideas for replacement words that can be used are: stunning, dazzling, or glorious.
