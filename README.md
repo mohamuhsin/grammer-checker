@@ -89,7 +89,7 @@ Use an iterator method of your choice to access the word (there is only one) in 
 Some ideas for replacement words that can be used are: stunning, dazzling, or glorious.
 
 ### Patting Yourself on the Back
-12.
-Great work! You’ve vastly improved the story using some of the most important iterator methods available to us to use as JavaScript developers.
+
+**12.** Great work! You’ve vastly improved the story using some of the most important iterator methods available to us to use as JavaScript developers.
 
 Feel free to continue using iterator methods to make further edits, or click Next to continue your learning journey.
