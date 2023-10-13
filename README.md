@@ -36,3 +36,42 @@ Below the .forEach() method, log count to see how many words are in the story.
 **5.**  A word count of 181 is a bit long for this story. Let’s filter out all instances of the word “literally” to shorten the story and remove the unnecessary word. We will reassign the filtered story to the same storyWords variable by applying the .filter() method! Throughout the project, we’ll use this approach of reassigning the storyWords variable for each revision of the story.
 
 Below where you logged the count variable, reassign the storyWords variable to equal the invocation of the .filter() method on the storyWords array. Give the .filter() method a callback function with a parameter of word.
+
+Below the storyWords variable declaration, notice the variable unnecessaryWord on line 4. We want to filter out the value of unnecessaryWord from the story.
+
+Within the filter() method’s callback function body, return word only if it is NOT equal to unnecessaryWord.
+
+Check the story string in the console to make sure it doesn’t include the word “literally”. The first instance of “literally” was previously in the first sentence.
+
+
+Replacing Words
+7.
+Now that we’ve removed the unnecessary words, let’s take care of any misspelled words in the story. We can reassign storyWords to a new array of spell-checked words using the .map() method!
+
+Reassign storyWords to equal the invocation of the .map() method on the storyWords array.
+
+Setword as a parameter of .map()‘s callback function.
+
+In the callback’s body, define a conditional statement to check if the word argument is equal to the misspelledWord variable. If it is, return the correct spelling of the string, “beautiful”. If not, return word.
+
+Take a look at the story string in the console to see the correct spellings! You can see one instance of the spellchecked word in the first sentence of the story.
+
+
+Stuck? Get a hint
+8.
+Uh oh, your great grandmother is going to read the story and there’s a “bad” word in it! Let’s apply the .findIndex() method to storyWords to find the index of the bad word.
+
+Start by declaring a variable called badWordIndex and setting it to the invocation of .findIndex() on the storyWords array.
+
+The .findIndex() callback function should check each word to see if it equals the badWord variable declared on line 6, and return the index of the found word.
+
+Then, log badWordIndex to the console.
+
+
+Stuck? Get a hint
+9.
+Now that we have the index of the bad word, we can easily replace it with something more appropriate.
+
+Access the element inside the storyWords array that has the index of badWordIndex using bracket notation. Set the accessed element equal to the more appropriate string, 'really'.
+
+Save the code and check that the bad word has been replaced.
