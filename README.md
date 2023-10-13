@@ -44,13 +44,6 @@ Within the filter() method’s callback function body, return word only if it is
 Check the story string in the console to make sure it doesn’t include the word “literally”. The first instance of “literally” was previously in the first sentence.
 Below where you logged the count variable, reassign the storyWords variable to equal the invocation of the .filter() method on the storyWords array. Give the .filter() method a callback function with a parameter of word.
 
-Below the storyWords variable declaration, notice the variable unnecessaryWord on line 4. We want to filter out the value of unnecessaryWord from the story.
-
-Within the filter() method’s callback function body, return word only if it is NOT equal to unnecessaryWord.
-
-Check the story string in the console to make sure it doesn’t include the word “literally”. The first instance of “literally” was previously in the first sentence.
-
-
 #### Replacing Words
 
 **7.** Now that we’ve removed the unnecessary words, let’s take care of any misspelled words in the story. We can reassign storyWords to a new array of spell-checked words using the .map() method!
