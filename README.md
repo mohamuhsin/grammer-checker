@@ -74,3 +74,10 @@ Then, log badWordIndex to the console.
 Access the element inside the storyWords array that has the index of badWordIndex using bracket notation. Set the accessed element equal to the more appropriate string, 'really'.
 
 Save the code and check that the bad word has been replaced.
+
+**10.** Finally, let’s simplify the words in the story to appeal to a broader audience. We can make sure every word in the story is 10 characters or less using the .every() method. The .every() method uses a callback function to test if every element in an array passes a specified condition. It returns true if all elements pass, and false if there is an element that does not pass.
+
+To start, define a variable called lengthCheck and set it to the invocation of the .every() method on storyWords. In the callback function, test whether every word has less than or equal to 10 characters.
+
+Log lengthCheck to the console to see the result. If true is logged, every word in the story has 10 characters or less. Otherwise, one or more words are longer than 10 characters.
+
