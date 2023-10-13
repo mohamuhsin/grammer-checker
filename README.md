@@ -35,7 +35,7 @@ Below the .forEach() method, log count to see how many words are in the story.
 
 **5.**  A word count of 181 is a bit long for this story. Let’s filter out all instances of the word “literally” to shorten the story and remove the unnecessary word. We will reassign the filtered story to the same storyWords variable by applying the .filter() method! Throughout the project, we’ll use this approach of reassigning the storyWords variable for each revision of the story.
 
-Below the storyWords variable declaration, notice the variable unnecessaryWord on line 4. We want to filter out the value of unnecessaryWord from the story.
+**6.** Below the storyWords variable declaration, notice the variable unnecessaryWord on line 4. We want to filter out the value of unnecessaryWord from the story.
 
 Within the filter() method’s callback function body, return word only if it is NOT equal to unnecessaryWord.
 
