@@ -69,10 +69,7 @@ The .findIndex() callback function should check each word to see if it equals th
 
 Then, log badWordIndex to the console.
 
-
-Stuck? Get a hint
-9.
-Now that we have the index of the bad word, we can easily replace it with something more appropriate.
+**9.** Now that we have the index of the bad word, we can easily replace it with something more appropriate.
 
 Access the element inside the storyWords array that has the index of badWordIndex using bracket notation. Set the accessed element equal to the more appropriate string, 'really'.
 
