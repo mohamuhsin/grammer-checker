@@ -14,3 +14,13 @@ After you’ve viewed the storyWords array, comment out the console.log() statem
 Give the .join() method an argument of an empty space character (' ') to separate each array element with a space in the string.
 
 Place the .join() method invocation as an argument of a console.log() statement to log the final story to the console.
+
+ ### Counting Words
+
+**3** Now it’s time to start editing the story by manipulating the storyWords array. We want to be able to see the changes, so be sure your console.log() of the joined story is the last line of code in your editor.
+
+First, above the console.log() statement that uses the .join() method, create a variable named count that stores the number 0.
+
+Directly below count, use a .forEach() method to iterate over the storyWords array. As an argument of the forEach() method, create an empty function to be used as the callback function.
+
+While ES6 arrow syntax is recommended for the callback function, feel free to use any syntax you’re comfortable with.
