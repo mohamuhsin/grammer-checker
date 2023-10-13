@@ -9,7 +9,7 @@ To see the array we’ll be working with throughout the lesson, log storyWords t
 
 After you’ve viewed the storyWords array, comment out the console.log() statement before moving to the next task.
 
-**2** For a better visual comparison of the original and edited stories, we want to view the edited storyWords array as a string. To change the storyWords array back into a readable string, we can invoke the .join() method on storyWords.
+**2.** For a better visual comparison of the original and edited stories, we want to view the edited storyWords array as a string. To change the storyWords array back into a readable string, we can invoke the .join() method on storyWords.
 
 Give the .join() method an argument of an empty space character (' ') to separate each array element with a space in the string.
 
