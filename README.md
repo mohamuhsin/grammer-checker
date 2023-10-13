@@ -49,9 +49,9 @@ Within the filter() method’s callback function body, return word only if it is
 Check the story string in the console to make sure it doesn’t include the word “literally”. The first instance of “literally” was previously in the first sentence.
 
 
-Replacing Words
-7.
-Now that we’ve removed the unnecessary words, let’s take care of any misspelled words in the story. We can reassign storyWords to a new array of spell-checked words using the .map() method!
+#### Replacing Words
+
+**7.** Now that we’ve removed the unnecessary words, let’s take care of any misspelled words in the story. We can reassign storyWords to a new array of spell-checked words using the .map() method!
 
 Reassign storyWords to equal the invocation of the .map() method on the storyWords array.
 
