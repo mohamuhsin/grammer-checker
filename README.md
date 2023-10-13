@@ -61,10 +61,7 @@ In the callback’s body, define a conditional statement to check if the word ar
 
 Take a look at the story string in the console to see the correct spellings! You can see one instance of the spellchecked word in the first sentence of the story.
 
-
-Stuck? Get a hint
-**8.**
-Uh oh, your great grandmother is going to read the story and there’s a “bad” word in it! Let’s apply the .findIndex() method to storyWords to find the index of the bad word.
+**8.** Uh oh, your great grandmother is going to read the story and there’s a “bad” word in it! Let’s apply the .findIndex() method to storyWords to find the index of the bad word.
 
 Start by declaring a variable called badWordIndex and setting it to the invocation of .findIndex() on the storyWords array.
 
