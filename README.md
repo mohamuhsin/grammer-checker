@@ -17,7 +17,7 @@ Place the .join() method invocation as an argument of a console.log() statement 
 
  ### Counting Words
 
-**3** Now it’s time to start editing the story by manipulating the storyWords array. We want to be able to see the changes, so be sure your console.log() of the joined story is the last line of code in your editor.
+**3.** Now it’s time to start editing the story by manipulating the storyWords array. We want to be able to see the changes, so be sure your console.log() of the joined story is the last line of code in your editor.
 
 First, above the console.log() statement that uses the .join() method, create a variable named count that stores the number 0.
 
