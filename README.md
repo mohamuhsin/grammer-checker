@@ -1,4 +1,5 @@
 # grammar checker
+
 In this project, you’ll use what you know about iterating over arrays to gather information and improve the quality of a paragraph.
 
 # Tasks
@@ -15,7 +16,7 @@ Give the .join() method an argument of an empty space character (' ') to separat
 
 Place the .join() method invocation as an argument of a console.log() statement to log the final story to the console.
 
- ### Counting Words
+### Counting Words
 
 **3.** Now it’s time to start editing the story by manipulating the storyWords array. We want to be able to see the changes, so be sure your console.log() of the joined story is the last line of code in your editor.
 
@@ -50,7 +51,7 @@ Below where you logged the count variable, reassign the storyWords variable to e
 
 Reassign storyWords to equal the invocation of the .map() method on the storyWords array.
 
-Setword as a parameter of .map()‘s callback function.
+Set word as a parameter of .map()‘s callback function.
 
 In the callback’s body, define a conditional statement to check if the word argument is equal to the misspelledWord variable. If it is, return the correct spelling of the string, “beautiful”. If not, return word.
 
@@ -75,7 +76,6 @@ Save the code and check that the bad word has been replaced.
 To start, define a variable called lengthCheck and set it to the invocation of the .every() method on storyWords. In the callback function, test whether every word has less than or equal to 10 characters.
 
 Log lengthCheck to the console to see the result. If true is logged, every word in the story has 10 characters or less. Otherwise, one or more words are longer than 10 characters.
-
 
 **11.** Hmm, it looks like there’s at least one word longer than 10 characters.
 
